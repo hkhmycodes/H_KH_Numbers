@@ -22,7 +22,6 @@ This repository contains the SDN testbed, the metric implementation, and all ana
 - [Known limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
 - [Reproduction checklist](#reproduction-checklist)
-- [Citation](#citation)
 - [License](#license)
 
 ## What this testbed produces
@@ -547,23 +546,6 @@ Before reporting any result from this testbed:
 
 If any check fails, the raw logs are preserved under `results/logs/` and the per-run directories; the orchestrator does not clean them up on failure.
 
-## Citation
-
-If you use this testbed in academic work, please cite:
-
-```bibtex
-@article{khayou2026scc,
-  title   = {A Utilization- and Resilience-Aware {SCC}-Based Extension of
-             {Horton--Strahler} Ordering for Directed Networks},
-  author  = {Khayou, Hussein},
-  journal = {Journal of Communications and Networks},
-  year    = {2026},
-  note    = {Manuscript under review}
-}
-```
-
-> **Note**
-> Update the `note` field with the volume, number, and pages once the paper is published.
 
 ## License
 
